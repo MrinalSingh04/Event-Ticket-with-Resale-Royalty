@@ -7,7 +7,7 @@ A **Remix-friendly ERC-721 ticketing smart contract** that allows:
 - **Primary sales** (organizer → buyer) at a fixed price.
 - **Secondary sales** (owner → new buyer) with **automatic royalty** payment to the organizer.
 - **No direct transfers** — tickets can only change hands via the contract, ensuring royalties cannot be bypassed.
-
+ 
 This is a **self-contained** contract (no OpenZeppelin imports) so it **compiles instantly in Remix IDE**.
 
 ---
